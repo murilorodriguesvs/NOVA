@@ -2,13 +2,15 @@
 
 ## Descrição
 
-Este projeto tem como objetivo automatizar a coleta e atualização de dados financeiros a partir de downloads diários de planilhas via portal web, integrando esses dados em dashboards interativos desenvolvidos no Power BI. A automação reduz drasticamente o trabalho manual, aumenta a confiabilidade dos dados e proporciona análises atualizadas e dinâmicas para a tomada de decisão no mercado financeiro.
+Este projeto tem como objetivo automatizar a coleta e atualização de dados de carteira a partir de downloads diários de planilhas via portal web, integrando esses dados em dashboards interativos desenvolvidos no Power BI. A automação reduz drasticamente o trabalho manual, aumenta a confiabilidade dos dados e proporciona análises atualizadas e dinâmicas para a tomada de decisão no mercado capitais.
+A consolidação da carteira em um único relatório, interativo, de atualização diária e de alta confiabilidade possibilitou a redução no trabalho operacional e possibilitou o desenvolvimento de análises dos dados e estudos dos investimentos.
+O dashboard desenvolvido consolidou em um único relatório informações de carteiras de investimentos de FIDCs, CRIs, FIMs, ou qualquer outro veículo de investimento de CCIs. Muito além do já apresentado, a estrutura pode ser replicada para diversos objetivos: centralizar a carteira dos inúmeros empreendimentos de uma incorporadora, dos diversos fundos de uma gestora ou qualquer outra construção de carteira de recebíveis.
 
 ---
 
 ## Problema
 
-Antes deste projeto, a atualização dos relatórios financeiros dependia de processos manuais para baixar planilhas, consolidar dados e alimentar relatórios no Power BI, o que demandava muito tempo e apresentava risco elevado de erros humanos.
+Antes deste projeto, a atualização dos relatórios dependiam de processos manuais para baixar planilhas, consolidar dados e alimentar relatórios no Power BI, o que demandava muito tempo e apresentava risco elevado de erros humanos.
 
 ---
 
