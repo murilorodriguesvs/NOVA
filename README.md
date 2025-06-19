@@ -1,4 +1,4 @@
-# Automação de Dados e Dashboard de Carteira com Node.js e Power BI
+# NOVA: Núcleo de Operação, Visualização e Análise
 
 ## 📄 Descrição 
 
@@ -20,6 +20,48 @@ Antes deste projeto, a atualização dos relatórios dependiam de processos manu
 - Organização automática dos arquivos baixados em pastas por data e operação.
 - Integração dessas bases no Power BI para criação de dashboards com indicadores financeiros essenciais, como fluxo de caixa, inadimplência e carteira de recebíveis.
 - Uso de Power Query para transformação e modelagem dos dados dentro do Power BI.
+
+## 📊 Dashboard
+
+O Dashboard foi desenvolvido em PowerBI utilizando uma estrutura de seleção por veículo, múltipla ou única. Dividido em quatro páginas: Distribuição, Carteira, Inadimplência, Painel de Clientes, o relatório traz um visualização detalhada de cada aspecto de análise de uma carteira de investimentos.
+
+### Distribuição
+
+Focado em apresentar a concetração por devedor em cada um de seus aspectos:  
+- Localização
+- Taxa
+- LTV
+- Tabela de Amortização
+- Índice de Correção
+- Pessoa Física ou Jurídica
+- Finalidade do Crédito
+- Valor de Emissão
+- Duration X Taxa
+
+Nesta página, será possível destrinchar a concentração dos ativos, possível alocação em CRIs, impactos por índice de correção, análise de Duration individual, histórico de emissão por taxa e Ticket. Sua carteira está bem pulverizada? Qual o Duration de cada um de seus devedores? O cenário histórico de taxa de juros das emissões passadas é atrativo?
+
+### Carteira
+
+Em segundo momento, o dashboard permitirá analisar a carteira pulverizada. Consolidamos em uma página todo histórico de recebimento e de recebimento futuro da carteira e Behavior da carteira.  
+Toda carteira futura é projetada em critério de elegibilidade, todo o histórico é apresentado para entender se o comportamento dos devedores: em dia, atrasado ou adiantado? 
+Neste momento conseguimos entender e negociar a carteira como um único "pacote".
+
+### Inadimplência
+
+Talvez a análise mais importante, na página de inadimplência é destacado cada pagamento em aberto por cliente.  
+Visualizações como:
+- Valor em aberto por cliente, segmentando multa e mora
+- Valor em aberto por faixa de atraso
+- Rastro de inadimplência
+- Distribuição por Elegibilidade
+- Distribuição por estágoo na esteira de cobrança
+- Nível de inadimplência
+- Média de Atraso
+
+### Painel de Clientes
+
+Por fim, no painel de clientes é apresentado um resumo consolidado da carteira, em tabela, cada cliente é resumido em suas principais características, para uma análise rápida e certeira.  
+Mas para ainda mais detalhes, o botão "Me Mostre Mais!" permite abrir no detalhe cada cliente, com detalhes de imagens da garantia, Big Numbers do ativo, histórico e localização.
 
 ---
 
@@ -51,8 +93,6 @@ Antes deste projeto, a atualização dos relatórios dependiam de processos manu
 
 ## 📁 Estrutura do Repositório
 
-## Estrutura do Repositório
-
 /
 ├── src/               # Código do bot Node.js  
 ├── data-model/        # Arquivos Power BI (.pbix) e dicionários de dados  
@@ -70,6 +110,12 @@ Antes deste projeto, a atualização dos relatórios dependiam de processos manu
 Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
 Imagens
+
+![image](https://github.com/user-attachments/assets/d7a22bcd-47d2-4a9b-940c-03b9186f7aa8)
+![image (1)](https://github.com/user-attachments/assets/1ffcba04-57b2-4487-a0a7-cf516f97b813)
+![image](https://github.com/user-attachments/assets/e379a2cb-cdc0-4fde-88c6-e8a2d95ecefb)
+![image (2)](https://github.com/user-attachments/assets/8c8808b0-8429-4f19-903f-14c8c80e7bbd)
+![image (3)](https://github.com/user-attachments/assets/d02b8ca6-f7c3-458c-a544-ca9fc92ce3a3)
 
 Licença
 Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
